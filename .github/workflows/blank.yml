@@ -16,4 +16,4 @@ jobs:
       - run: npm install
       - run: npm publish --provenance
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.REG }}
+          NODE_AUTH_TOKEN: ${{ secrets.REGY }}
